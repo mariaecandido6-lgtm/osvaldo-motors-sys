@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(219, 146, 36);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(35, 35, 45);
+    border-radius: 20px;
+}
+
+h1 {
+    flex: 1;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 155, 61);
+    font-size: 30px;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(34, 31, 24);
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    padding: 0 10px;
+    list-style-type: none;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#cards {
+   display: flex;
+   gap: 20px;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+
+.card {
+   background-color: white;
+   padding: 20px;
+   width:30%;
+   border-radius: 20px;
+   text-align: center;
+   border: 1px solid #eee;
+}
+
+.card h2 {
+   margin: 10px 0;
+   font-size: 20px;
+}
+
+.card img {
+   width: 100%;
+   border-radius: 20px;
+   object-fit: cover;
+   height: 300px;
+   object-position: top;
+   background-color: rgb (230, 230, 230);
+}
+
+
+#introducao {
+    display: flex;
+   flex-direction: row;
+   gap: 30px;
+   padding: 30px;
+   align-items: center;
+    justify-content: space-between;
+   margin-bottom: 30px;
+
+}
