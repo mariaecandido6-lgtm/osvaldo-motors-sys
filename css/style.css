@@ -41,34 +41,20 @@ a {
 }
 
 #cards {
-   display: flex;
+
+}
+
+#galeria-imgs {
+    display: flex;
    gap: 20px;
    justify-content: center;
    flex-wrap: wrap;
 }
 
 
-.card {
-   background-color: white;
-   padding: 20px;
-   width:30%;
-   border-radius: 20px;
-   text-align: center;
-   border: 1px solid #eee;
-}
-
 .card h2 {
    margin: 10px 0;
    font-size: 20px;
-}
-
-.card img {
-   width: 100%;
-   border-radius: 20px;
-   object-fit: cover;
-   height: 300px;
-   object-position: top;
-   background-color: rgb (230, 230, 230);
 }
 
 
@@ -81,4 +67,32 @@ a {
     justify-content: space-between;
    margin-bottom: 30px;
 
+}
+
+.card {
+    background-color: white;
+    width: 30%;
+    margin-top: 20px;
+}
+
+.card img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+# card galeria-imgs {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.card-texto {
+    padding: 10px;
+}
+
+th {
+    padding: 20px;;
 }
